@@ -9,7 +9,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cortex-memory"
+name = "hb-cortex-memory"
 description = "CORTEX — a navigable, writable hierarchical-memory engine for LLM agents (PostgreSQL + pgvector)."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -44,8 +44,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/hirebuddha/cortex-memory"
-Repository = "https://github.com/hirebuddha/cortex-memory"
+Homepage = "https://github.com/gondolerahul/cortex-memory"
+Repository = "https://github.com/gondolerahul/cortex-memory"
 
 [tool.setuptools]
 packages = ["cortex_memory"]
